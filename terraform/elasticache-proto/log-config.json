@@ -1,0 +1,11 @@
+[{
+  "LogType": "slow-log",
+  "DestinationType": "cloudwatch-logs",
+  "DestinationDetails": {
+    "CloudWatchLogsDetails": {
+      "LogGroup": "cloud-f39v-dev-redis-log"
+    }
+  },
+  "LogFormat": "text",
+  "Enabled": true
+}]
